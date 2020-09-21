@@ -19,6 +19,7 @@ import { ServicesComponent } from './Components/services/services.component';
 import { ProductsListComponent } from './Components/products-list/products-list.component';
 import { ProductDetailsComponent } from './Components/product-details/product-details.component';
 import { ContactUsComponent } from './Components/contact-us/contact-us.component';
+import { FloattingButtonComponent } from './Components/floatting-button/floatting-button.component';
 @NgModule({
   exports: [
     MatToolbarModule,
@@ -37,7 +38,8 @@ import { ContactUsComponent } from './Components/contact-us/contact-us.component
     ServicesComponent,
     ProductsListComponent,
     ProductDetailsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FloattingButtonComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
